@@ -6,38 +6,98 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [ 
     {
-        enunciado:a primeira perguntas
+        enunciado:"a primeira perguntas",
         alternativas: [
-            "isso e ruim",
-            "isso e bom"
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
         ]
     },
+
     {
-        enunciado:a primeira perguntas
+        enunciado:"a primeira perguntas",
         alternativas: [
-            "isso e ruim",
-            "isso e bom"
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
         ]
     },
+
     {
-        enunciado:a primeira perguntas
+        enunciado:"a primeira perguntas",
         alternativas: [
-            "isso e ruim",
-            "isso e bom"
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
         ]
     },
+
     {
-        enunciado:a primeira perguntas
+        enunciado:"a primeira perguntas",
         alternativas: [
-            "isso e ruim",
-            "isso e bom"
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
         ]
     },
+
     {
-        enunciado:a primeira perguntas
+        enunciado:"a primeira perguntas",
         alternativas: [
-            "isso e ruim",
-            "isso e bom"
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
         ]
     },
-]
+
+    {
+        enunciado:"a primeira perguntas",
+        alternativas: [
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
+            { 
+            texto:"isso é assustador!",
+            afirmação:"afirmação"
+            },
+        ]
+    },
+
+    
+
+let atual =0;
+let perguntaAtual;
+
+function mostraPergunta (){
+   perguntaAtual = perguntas [atual];
+   caixaPerguntas.textContent = perguntas.enunciado;
+
+}
+
+mostraPergunta ();
